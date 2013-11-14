@@ -3,7 +3,7 @@ These are the customizations I lay on top of my bash environment.
 These customizations derive from another project; a `framework for maintaining a
 bash-based Unix environment`_.
 
-.. _framework for maintaining a bash-based unix environment: https://bitbucket.org/nbargnesi/bash-environment
+.. _framework for maintaining a bash-based unix environment: https://github.com/nbargnesi/bash-environment
 
 Vim Bindings
 ============
