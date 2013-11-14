@@ -1,0 +1,14 @@
+[ui]
+username = Nick Bargnesi <nick@den-4.com>
+editor = /usr/bin/vim
+
+[extensions]
+color =
+purge =
+extdiff =
+transplant =
+
+[extdiff]
+cmd.cdiff = /usr/bin/colordiff
+opts.cdiff = -uprN
+

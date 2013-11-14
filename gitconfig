@@ -1,0 +1,15 @@
+[color "status"]
+    changed = yellow
+    untracked = 38
+    added = 106
+
+[color "diff"]
+    meta = 246
+    frag = green
+    old = 214
+    new = 38
+
+[color]
+    diff = always
+    status = always
+    branch = always

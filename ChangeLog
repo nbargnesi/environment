@@ -1,0 +1,383 @@
+2013-06-05  Nick Bargnesi  <nick@den-4.com>
+
+	* tmux.conf:
+	tmux.conf; M-Left/M-Right to previous/next window
+	[ecb663995822] [tip]
+
+	* vimrc:
+	vimrc; bind CTRL-J to clear last search
+	[101c39b9da60]
+
+2013-05-06  Nick Bargnesi  <nick@den-4.com>
+
+	* sublime_text/Clojure.sublime-settings,
+	sublime_text/FreshCut.tmTheme, sublime_text/Java.sublime-settings,
+	sublime_text/JavaScript.sublime-settings, sublime_text/Python
+	.sublime-settings, sublime_text/Superhero.tmtheme,
+	sublime_text/close_to_the_sea.tmTheme:
+	Sublime Text settings
+	[d9c436c53096]
+
+2012-12-17  Nick Bargnesi  <nick@den-4.com>
+
+	* inputrc:
+	Make bash history completion like ipython
+	[6a668adb4d69]
+
+2012-11-01  Nick Bargnesi  <nick@den-4.com>
+
+	* vimrc:
+	vim: map CTRL-d to delete w/o yank
+	[80cfec5ef0b7]
+
+	* vim/ftplugin/python.vim, vimrc:
+	python ftplugin; set textwidth
+	[da5f89f4169b]
+
+2012-09-19  Nick Bargnesi  <nick@den-4.com>
+
+	* gitconfig:
+	Remove identity from gitconfig
+	[3502203e1dc5]
+
+2012-09-12  Nick Bargnesi  <nick@den-4.com>
+
+	* vimrc:
+	Remove CTRL-O for Command-T; I want CTRL-O back
+	[533181bee3d5]
+
+2012-08-02  Nick Bargnesi  <nick@den-4.com>
+
+	* vimrc:
+	vimrc: add CTRL-n CTRL-n to toggle line numbers
+	[ba510ec9e88b]
+
+	* vimrc:
+	Allow use of .vimrc_custom in current directory to override settings
+	from $HOME/.vimrc
+	[179513793db0]
+
+2012-08-01  Nick Bargnesi  <nick@den-4.com>
+
+	* vimrc:
+	merge
+	[31f2ad7fbbce]
+
+	* vim/colors/magma.vim, vimrc:
+	Add CTRL-r visual mode mapping
+
+	Replaces the currently highlighted text.
+	[4c2b8c23cf76]
+
+2012-07-26  Nick Bargnesi  <nick@den-4.com>
+
+	* vim/after/plugin/snipMate.vim, vim/autoload/snipMate.vim,
+	vim/doc/snipMate.txt, vim/ftplugin/html_snip_helper.vim, vim/plugin-
+	info.txt, vim/plugin/snipMate.vim, vim/snippets/_.snippets,
+	vim/snippets/autoit.snippets, vim/snippets/c.snippets,
+	vim/snippets/cpp.snippets, vim/snippets/erlang.snippets,
+	vim/snippets/html.snippets, vim/snippets/java.snippets,
+	vim/snippets/javascript.snippets, vim/snippets/mako.snippets,
+	vim/snippets/objc.snippets, vim/snippets/perl.snippets,
+	vim/snippets/php.snippets, vim/snippets/python.snippets,
+	vim/snippets/ruby.snippets, vim/snippets/sh.snippets,
+	vim/snippets/snippet.snippets, vim/snippets/tcl.snippets,
+	vim/snippets/tex.snippets, vim/snippets/vim.snippets,
+	vim/snippets/zsh.snippets, vim/syntax/snippet.vim:
+	Add snipmate; latest from (April 8, 2012)
+
+	(commit f5a75d075d3c005ebe69e3f5e56cf99516e8aa3b)
+	[79ec44007efd]
+
+2012-07-19  Nick Bargnesi  <nick@den-4.com>
+
+	* vim/colors/molokai.vim, vimrc:
+	In vim statusline, show full path to buffer and total number of
+	buffers
+	[1db11432ca4c]
+
+2012-06-07  Nick Bargnesi  <nick@den-4.com>
+
+	* vim/doc/NERD_commenter.txt, vim/plugin/NERD_commenter.vim:
+	Add NERD commenter, recommended by @JamesFM
+	[402a6552bac6]
+
+2012-06-06  Nick Bargnesi  <nick@den-4.com>
+
+	* vim/autoload/vimclojure.vim, vim/autoload/vimclojure/util.vim,
+	vim/bin/clj, vim/bin/clj.bat, vim/bin/ng-server, vim/bin/ng-
+	server.bat, vim/doc/clojure.txt, vim/doc/tags,
+	vim/ftdetect/clojure.vim, vim/ftplugin/clojure.vim,
+	vim/ftplugin/clojure/completions-clojure.core.txt,
+	vim/ftplugin/clojure/completions-clojure.data.txt,
+	vim/ftplugin/clojure/completions-clojure.inspector.txt,
+	vim/ftplugin/clojure/completions-clojure.java.browse.txt,
+	vim/ftplugin/clojure/completions-clojure.java.io.txt,
+	vim/ftplugin/clojure/completions-clojure.java.javadoc.txt,
+	vim/ftplugin/clojure/completions-clojure.java.shell.txt,
+	vim/ftplugin/clojure/completions-clojure.main.txt,
+	vim/ftplugin/clojure/completions-clojure.pprint.txt,
+	vim/ftplugin/clojure/completions-clojure.repl.txt,
+	vim/ftplugin/clojure/completions-clojure.set.txt,
+	vim/ftplugin/clojure/completions-clojure.stacktrace.txt,
+	vim/ftplugin/clojure/completions-clojure.string.txt,
+	vim/ftplugin/clojure/completions-clojure.template.txt,
+	vim/ftplugin/clojure/completions-clojure.test.junit.txt,
+	vim/ftplugin/clojure/completions-clojure.test.tap.txt,
+	vim/ftplugin/clojure/completions-clojure.test.txt,
+	vim/ftplugin/clojure/completions-clojure.walk.txt,
+	vim/ftplugin/clojure/completions-clojure.xml.txt,
+	vim/ftplugin/clojure/completions-clojure.zip.txt,
+	vim/indent/clojure.vim, vim/plugin/clojure.vim,
+	vim/syntax/clojure.vim:
+	Added vimclojure
+	[a774bc2c0097]
+
+2012-04-05  Nick Bargnesi  <nick@den-4.com>
+
+	* vim/autoload/pathogen.vim, vim/bundle/syntastic/.git/HEAD,
+	vim/bundle/syntastic/.git/config,
+	vim/bundle/syntastic/.git/description,
+	vim/bundle/syntastic/.git/hooks/applypatch-msg.sample,
+	vim/bundle/syntastic/.git/hooks/commit-msg.sample,
+	vim/bundle/syntastic/.git/hooks/post-commit.sample,
+	vim/bundle/syntastic/.git/hooks/post-receive.sample,
+	vim/bundle/syntastic/.git/hooks/post-update.sample,
+	vim/bundle/syntastic/.git/hooks/pre-applypatch.sample,
+	vim/bundle/syntastic/.git/hooks/pre-commit.sample,
+	vim/bundle/syntastic/.git/hooks/pre-rebase.sample,
+	vim/bundle/syntastic/.git/hooks/prepare-commit-msg.sample,
+	vim/bundle/syntastic/.git/hooks/update.sample,
+	vim/bundle/syntastic/.git/index,
+	vim/bundle/syntastic/.git/info/exclude,
+	vim/bundle/syntastic/.git/logs/HEAD,
+	vim/bundle/syntastic/.git/logs/refs/heads/master,
+	vim/bundle/syntastic/.git/objects/pack/pack-
+	686fee058796acccb6da3b6669b1e2765418b2f7.idx,
+	vim/bundle/syntastic/.git/objects/pack/pack-
+	686fee058796acccb6da3b6669b1e2765418b2f7.pack,
+	vim/bundle/syntastic/.git/packed-refs,
+	vim/bundle/syntastic/.git/refs/heads/master,
+	vim/bundle/syntastic/.git/refs/remotes/origin/HEAD,
+	vim/bundle/syntastic/.gitignore,
+	vim/bundle/syntastic/README.markdown,
+	vim/bundle/syntastic/_assets/screenshot_1.png,
+	vim/bundle/syntastic/autoload/syntastic/c.vim,
+	vim/bundle/syntastic/doc/syntastic.txt,
+	vim/bundle/syntastic/doc/tags,
+	vim/bundle/syntastic/plugin/syntastic.vim,
+	vim/bundle/syntastic/syntax_checkers/applescript.vim,
+	vim/bundle/syntastic/syntax_checkers/c.vim,
+	vim/bundle/syntastic/syntax_checkers/coffee.vim,
+	vim/bundle/syntastic/syntax_checkers/cpp.vim,
+	vim/bundle/syntastic/syntax_checkers/css.vim,
+	vim/bundle/syntastic/syntax_checkers/cucumber.vim,
+	vim/bundle/syntastic/syntax_checkers/cuda.vim,
+	vim/bundle/syntastic/syntax_checkers/docbk.vim,
+	vim/bundle/syntastic/syntax_checkers/efm_perl.pl,
+	vim/bundle/syntastic/syntax_checkers/erlang.vim,
+	vim/bundle/syntastic/syntax_checkers/erlang_check_file.erl,
+	vim/bundle/syntastic/syntax_checkers/eruby.vim,
+	vim/bundle/syntastic/syntax_checkers/fortran.vim,
+	vim/bundle/syntastic/syntax_checkers/gentoo_metadata.vim,
+	vim/bundle/syntastic/syntax_checkers/go.vim,
+	vim/bundle/syntastic/syntax_checkers/go/6g.vim,
+	vim/bundle/syntastic/syntax_checkers/go/go.vim,
+	vim/bundle/syntastic/syntax_checkers/go/gofmt.vim,
+	vim/bundle/syntastic/syntax_checkers/haml.vim,
+	vim/bundle/syntastic/syntax_checkers/haskell.vim,
+	vim/bundle/syntastic/syntax_checkers/haxe.vim,
+	vim/bundle/syntastic/syntax_checkers/html.vim,
+	vim/bundle/syntastic/syntax_checkers/javascript.vim,
+	vim/bundle/syntastic/syntax_checkers/javascript/gjslint.vim,
+	vim/bundle/syntastic/syntax_checkers/javascript/jshint.vim,
+	vim/bundle/syntastic/syntax_checkers/javascript/jsl.vim,
+	vim/bundle/syntastic/syntax_checkers/javascript/jslint.vim,
+	vim/bundle/syntastic/syntax_checkers/json.vim,
+	vim/bundle/syntastic/syntax_checkers/json/jsonlint.vim,
+	vim/bundle/syntastic/syntax_checkers/json/jsonval.vim,
+	vim/bundle/syntastic/syntax_checkers/less.vim,
+	vim/bundle/syntastic/syntax_checkers/lua.vim,
+	vim/bundle/syntastic/syntax_checkers/matlab.vim,
+	vim/bundle/syntastic/syntax_checkers/nasm.vim,
+	vim/bundle/syntastic/syntax_checkers/ocaml.vim,
+	vim/bundle/syntastic/syntax_checkers/perl.vim,
+	vim/bundle/syntastic/syntax_checkers/php.vim,
+	vim/bundle/syntastic/syntax_checkers/puppet.vim,
+	vim/bundle/syntastic/syntax_checkers/python.vim,
+	vim/bundle/syntastic/syntax_checkers/python/flake8.vim,
+	vim/bundle/syntastic/syntax_checkers/python/pyflakes.vim,
+	vim/bundle/syntastic/syntax_checkers/python/pylint.vim,
+	vim/bundle/syntastic/syntax_checkers/rst.vim,
+	vim/bundle/syntastic/syntax_checkers/ruby.vim,
+	vim/bundle/syntastic/syntax_checkers/ruby/jruby.vim,
+	vim/bundle/syntastic/syntax_checkers/ruby/mri.vim,
+	vim/bundle/syntastic/syntax_checkers/rust.vim,
+	vim/bundle/syntastic/syntax_checkers/sass.vim,
+	vim/bundle/syntastic/syntax_checkers/scala.vim,
+	vim/bundle/syntastic/syntax_checkers/scss.vim,
+	vim/bundle/syntastic/syntax_checkers/sh.vim,
+	vim/bundle/syntastic/syntax_checkers/tcl.vim,
+	vim/bundle/syntastic/syntax_checkers/tex.vim,
+	vim/bundle/syntastic/syntax_checkers/vala.vim,
+	vim/bundle/syntastic/syntax_checkers/xhtml.vim,
+	vim/bundle/syntastic/syntax_checkers/xml.vim,
+	vim/bundle/syntastic/syntax_checkers/xslt.vim,
+	vim/bundle/syntastic/syntax_checkers/yaml.vim,
+	vim/bundle/syntastic/syntax_checkers/z80.vim,
+	vim/bundle/syntastic/syntax_checkers/zpt.vim, vimrc:
+	Add pathogen and syntastic
+	[a83a2963fae4]
+
+	* README.rst:
+	Bump
+	[b3684d6bdfb3]
+
+	* README.rst:
+	Bump
+	[bc774fa0ab03]
+
+	* README, README.rst:
+	README -> README.rst
+	[b779829c7be9]
+
+	* README:
+	Bump
+	[715f89133d5b]
+
+	* README, vimrc:
+	Add CTRL-y, CTRL-i, and CTRL-p
+	[dbe670bf63f6]
+
+2012-03-28  Nick Bargnesi  <nick@den-4.com>
+
+	* tmux.conf:
+	Version a tmux config (tmux.conf).
+	[01bfb5c43f6c]
+
+	* vim/.netrwhist:
+	Merge
+	[e5b8a449d726]
+
+	* README:
+	Add README
+	[f20452aa1e46]
+
+	* vimrc:
+	Map CTRL-e to toggling hex mode views. CTRL-h was used.
+	[f1d22b52850c]
+
+	* vim/colors/twilight256.vim:
+	Adjust twilight search/match paren colors
+	[68876832c253]
+
+	* gitconfig:
+	Add [color] section to gitconfig.
+	[2189b7a20b15]
+
+2012-03-01  Nick Bargnesi  <nick@den-4.com>
+
+	* bc, vim/.netrwhist:
+	Remove .netrwhist and add bc for scale=2.
+	[1c0c8485fc1d]
+
+2012-02-09  Nick Bargnesi  <nick@den-4.com>
+
+	* vim/colors/xml.vim, vim/colors/xxd.vim, vimrc:
+	Map CTRL-H to toggling hex mode views.
+	[55b487984fa3]
+
+2012-02-07  Nick Bargnesi  <nick@den-4.com>
+
+	* colordiffrc, colorsvnrc, gitconfig, vim/colors/molokai.vim,
+	vim/colors/twilight256.vim:
+	Version colordiff, colorsvn, and gitconfig RC files.
+	[34137cdd0446]
+
+2011-12-20  Nick Bargnesi  <nick@den-4.com>
+
+	* vim/colors/xml.vim:
+	Try as I may, I can't seem to make XML appealing at *all*.
+	[9f10dd73d1f5]
+
+2011-12-07  Nick Bargnesi  <nick@den-4.com>
+
+	* vimrc:
+	Map ';' to ':' so writing becomes ';w<enter>' and CTRL-o to
+	CommandT.
+	[6ef242b3ca11]
+
+2011-12-05  Nick Bargnesi  <nick@den-4.com>
+
+	* vimrc:
+	Update vim status line format.
+	[325968305e2e]
+
+2011-11-18  Nick Bargnesi  <nick@den-4.com>
+
+	* vim/colors/python.vim, vim/colors/twilight256.vim, vimrc:
+	Map Alt-Up/Alt-Down to move line up/down. Change C/C++/slang
+	schemes.
+	[1a3872016c99]
+
+2011-11-17  Nick Bargnesi  <nick@den-4.com>
+
+	* vimrc:
+	Remap CTRL-Space for completion.
+	[b876b840db04]
+
+2011-11-16  Nick Bargnesi  <nick@den-4.com>
+
+	* vim/colors/python.vim, vim/nerdtree_plugin/exec_menuitem.vim,
+	vim/nerdtree_plugin/fs_menu.vim, vim/plugin/NERD_tree.vim, vimrc:
+	Update vimrc keyboard mappings. Update Python color scheme. Add
+	NERDTree plugin.
+	[4acf0e79a6f1]
+
+2011-11-09  Nick Bargnesi  <nick@den-4.com>
+
+	* vimrc: Highlight characters appearing on columns beyond 80.
+	[9994894108c2]
+
+	* vimrc:
+	vimrc: Highlight characters appearing on columns beyond 80.
+	[d41d726dc29e]
+
+2011-11-02  Nick Bargnesi  <nick@den-4.com>
+
+	* vim/colors/molokai.vim:
+	Update molokai StatusLine.
+	[6c075d04afc9]
+
+2011-11-01  Nick Bargnesi  <nick@den-4.com>
+
+	* vim/colors/svn.vim, vimrc:
+	Default vimrc colorscheme.
+	[c6400e2a7e11]
+
+2011-10-29  Nick Bargnesi  <nick@den-4.com>
+
+	* vim/colors/hgcommit.vim, vimrc:
+	Add hg commit specific color scheme.
+	[3cc0fc4de6fe]
+
+2011-10-28  Nick Bargnesi  <nick@den-4.com>
+
+	* Xdefaults, hgrc, vim/.netrwhist, vim/autoload/gtags.vim,
+	vim/autoload/togglebg.vim, vim/colors/almost-default.vim,
+	vim/colors/automake.vim, vim/colors/blackboard.vim,
+	vim/colors/calmar256-dark.vim, vim/colors/calmar256-light.vim,
+	vim/colors/calmar256.vim, vim/colors/desert256.vim,
+	vim/colors/harlequin.vim, vim/colors/impact.vim,
+	vim/colors/inkpot.vim, vim/colors/ir_black.vim,
+	vim/colors/magma.vim, vim/colors/molokai.vim,
+	vim/colors/mustang.vim, vim/colors/oceanblack256.vim,
+	vim/colors/solarized.vim, vim/colors/starbucks.vim,
+	vim/colors/summerfruit256.vim, vim/colors/tir_black.vim,
+	vim/colors/vitamins.vim, vim/colors/wombat256.vim,
+	vim/colors/xml.vim, vim/colors/xoria256.vim, vim/colors/zenburn.vim,
+	vim/plugin/changeColorScheme.vim, vim/plugin/dirsettings.vim,
+	vim/syntax/hgcommit.vim, vim/syntax/rst.vim, vimrc:
+	Initial commit of Xdefaults, vim-related, and hgrc.
+	[41d16851d340]
+
