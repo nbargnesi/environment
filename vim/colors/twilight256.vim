@@ -303,4 +303,5 @@ highlight Pmenu ctermbg=52
 highlight Search ctermbg=145
 highlight Search ctermbg=239 ctermfg=255
 highlight MatchParen ctermbg=240
+highlight StatusLine term=underline ctermfg=251 ctermbg=238 guifg=#CCCCCC
 " vim: set fdl=0 fdm=marker:
