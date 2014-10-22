@@ -1,0 +1,7 @@
+"3.8.2 (created: 2014/02/13 23:52:43)
+
+highlight CmdLine background: white; color: black; transition: all 0.25s; font-size:14px; font-family: "Ubuntu Mono";
+highlight CompDesc width: 500px; max-width: 500px; color: gray; font-size:14px; font-family: "Ubuntu Mono";
+highlight CompGroup width: 500px; max-width: 500px; color: gray; font-size:14px; font-family: "Ubuntu Mono";
+
+" vim: set ft=vimperator:
