@@ -144,5 +144,5 @@ endif
 " indent: allow backspacing over autoindent
 " eol: allow backspacing over line breaks
 " start: allow backspacing over the start of insert
-set backspace="indent,eol,start"
+set backspace=indent,eol,start
 
