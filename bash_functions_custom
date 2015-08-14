@@ -1,0 +1,25 @@
+count-tsv-columns() {
+    if [ $# -eq 0 ]; then
+        local me=FUNCNAME
+        echo "Usage: ${!me} [FILE]..." >&2
+        echo "E.g.: '${!me} file.tsv'" >&2
+        return 1
+    fi
+    while [ ! -z "$1" ]; do
+        awk -F '	' '{ print NF; exit}' "$1"
+        shift
+    done
+}
+
+count-csv-columns() {
+    if [ $# -eq 0 ]; then
+        local me=FUNCNAME
+        echo "Usage: ${!me} [FILE]..." >&2
+        echo "E.g.: '${!me} file.tsv'" >&2
+        return 1
+    fi
+    while [ ! -z "$1" ]; do
+        awk -F ',' '{ print NF; exit}' "$1"
+        shift
+    done
+}
